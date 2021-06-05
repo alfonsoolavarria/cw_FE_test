@@ -16,20 +16,11 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <title>Test, Alfonso!</title>
-
-    <style media="screen">
-      .card-header{
-        background: white;
-      }
-      body{
-        background: #f7f7f9;
-      }
-    </style>
   </head>
 
   <body>
     <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background: white;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: white;border-bottom: solid 1px darkgray;">
       <div class="navbar-brand">
         <div class="container p-5" >
           <div class="progress" data-percentage="50">
@@ -42,11 +33,11 @@
             <div class="progress-value">
               <div>
                 <br>
-                <img src="bootstrap/image/no_avatar.png" style="width: 126px;height: 129px;margin-top: -22px;border-radius: 60px;" alt="">
+                <img src="bootstrap/image/avatar1.png" style="width: 126px;height: 129px;margin-top: -22px;border-radius: 60px;" alt="">
               </div>
             </div>
           </div>
-          <span style="font-size:10px;margin-left: 43px;">Estado del objetivo</span>
+          <span style="font-size: 13px;margin-left: 30px;font-style: oblique;">Estado del objetivo</span>
         </div>
       </div>
 
@@ -57,21 +48,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active mr-5">
-            <span style="font-size: smaller;" class="span-up mr-2">Fecha de <br>inicio</span><br>
+            <span style="font-size: smaller;" class="span-up mr-2">Fecha de <br>inicio</span><br><br>
             <span>18/12/2020</span>
           </li>
           <li class="nav-item mr-5">
-            <span style="font-size: smaller;" class="span-up mr-2">Fecha de <br>Finalización</span><br>
+            <span style="font-size: smaller;" class="span-up mr-2">Fecha de <br>Finalización</span><br><br>
             <span>31/12/2020</span>
           </li>
           <li class="nav-item dropdown mr-5">
-            <span style="font-size: smaller;" class="span-up">Días <br>restantes</span><br>
+            <span style="font-size: smaller;" class="span-up">Días <br>restantes</span><br><br>
             <span>40</span>
           </li>
           <li class="nav-item dropdown mr-5" style="border: 0.5px solid darkgray;">
           </li>
           <li class="nav-item dropdown mr-5">
-            <span style="font-size: smaller;" class="span-up">Líderes</span><br>
+            <span style="font-size: smaller;" class="span-up">Líderes</span><br><br>
             <img src="bootstrap/image/no_avatar.png" style="width: 30px;border-radius: 50%;margin-left:0px;" class="float-left mt-3">
             <img src="bootstrap/image/no_avatar.png" style="width: 30px;border-radius: 50%;margin-left: -15px;" class="float-left mt-3">
             <img src="bootstrap/image/no_avatar.png" style="width: 30px;border-radius: 50%;margin-left: -15px;" class="float-left mt-3">
@@ -87,14 +78,14 @@
     </div>
   </nav>
 
-  <div class="container" style="margin-top: 50px;">
+  <div class="container-fluid" style="margin-top: 50px;">
     <div class="row">
       <div class="col-md-12">
         <div id="accordion">
-          <div class="card">
-            <div class="card-header" id="headingOne" style="background: #f7f7f9;">
+          <div class="card" style="border-left: 0px;border-bottom: 0px;border-right: 0px;">
+            <div class="card-header" id="headingOne" style="border: 0px;background: #f7f7f9;">
               <h5 class="mb-0">
-                <i class="fas fa-plus-circle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></i>
+                <i class="fas fa-plus-circle" style="color: gray;" id="circle1" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></i>
                 <button class="btn">
                   Resultados Clave
                 </button>
@@ -104,16 +95,16 @@
               <div class="card-body">
                 <!-- Segundo Acordion -->
                 <div id="accordion2">
-                  <div class="card">
+                  <div class="card" style="border-left: 0px;background: #f7f7f9;">
                     <div class="card-header" id="headingOne2" style="background: white;">
                       <h5 class="mb-0">
-                        <i class="fas fa-plus-circle" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2"></i>
+                        <i class="fas fa-plus-circle" style="color: gray;" id="circle2" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2"></i>
                         <button class="btn">
                           Terminar Proyecto
                         </button>
                       </h5>
-                      <div class="container">
-                        <div class="row" style="font-size: small;margin-left: 10px;color: gray;">
+                      <div class="container" style="margin-left: 28px;">
+                        <div class="row" style="font-size: small;color: gray;">
                           <div class="col-md-2">
                             Desde:18/10/2002
                           </div>
@@ -135,19 +126,23 @@
                         </div>
                       </div>
                     </div>
-
-                    <div id="collapseOne2" style="background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
+                    <div id="collapseOne2" style="margin-left: 15%;background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
+                      <div class="vl"></div>
+                      <div class="vl2"></div>
+                      <div class="vl22"></div>
+                      <div class="vl23"></div>
+                      <div class="vl24"></div>
                       <div class="card-body">
                         <!-- Tercer Acordion -->
                         <div id="accordion3">
-                          <div class="card">
+                          <div class="card" style="border-bottom: 0px;border-left: 0px;border-right: 0px;border-top: 0px;">
                             <div class="card-header" id="headingOne3">
                               <h5 class="mb-0">
-                                <i class="fas fa-plus-circle" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3"></i>
-                                <img src="bootstrap/image/no_avatar.png" style="width:60px;height:60px;border-radius: 60px;" alt="">
-                                <span style="color:blue; font-size:initial;margin-left: 7px;">Yo</span>
+                                <i class="fas fa-plus-circle" style="color: gray;" id="circle3" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3"></i>
+                                <img src="bootstrap/image/no_avatar.png" style="margin-left: 20px;width:60px;height:60px;border-radius: 60px;" alt="">
+                                <span style="color:blue; font-size:initial;margin-left:13px;">Yo</span>
                               </h5>
-                              <div class="container">
+                              <div class="container" style="margin-left: 30px;">
                                 <div class="row" style="font-size: small;margin-top: -20px;color: gray;">
                                   <div class="col-md-1">
 
@@ -167,12 +162,14 @@
                                 </div>
                               </div>
                             </div>
-                            <div id="collapseOne3" style="background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordion3">
+                            <div id="collapseOne3" style="background: #f7f7f9 !important;" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordion3">
                               <div class="card-body">
+                                <div class="vl3"></div>
 
                                 <!-- 4to Acordio -->
-                                <div id="accordion4">
-                                  <div class="card">
+                                <div id="accordion4" style="margin-left:10%;">
+                                  <div class="vl4"></div>
+                                  <div class="card" style="border: 0px;">
                                     <div class="card-header" id="headingOne4">
                                       <h5 class="mb-0">
                                         <span>Acciones</span>
@@ -211,8 +208,6 @@
                                     </div>
                                   </div>
                                 <!-- Fin 4to Acordio -->
-
-
                               </div>
                             </div>
                           </div>
@@ -222,18 +217,18 @@
                   </div>
                 </div>
 
-                    <div id="collapseOne2" style="background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
+                    <div id="collapseOne2" style="margin-left: 15%;background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
                       <div class="card-body">
                         <!-- Tercer Acordion -->
                         <div id="accordion33">
                           <div class="card">
                             <div class="card-header" id="headingOne33">
                               <h5 class="mb-0">
-                                <i class="fas fa-plus-circle" data-toggle="collapse" data-target="#collapseOne33" aria-expanded="true" aria-controls="collapseOne33"></i>
-                                <img src="bootstrap/image/no_avatar.png" style="width:60px;height:60px;border-radius: 60px;" alt="">
-                                <span style="color:blue; font-size:initial;margin-left: 7px;">Chinmay Sarasvaty</span>
+                                <i class="fas fa-plus-circle" style="color:gray;" id="circle4" data-toggle="collapse" data-target="#collapseOne33" aria-expanded="true" aria-controls="collapseOne33"></i>
+                                <img src="bootstrap/image/no_avatar.png" style=" margin-left: 20px;width:60px;height:60px;border-radius: 60px;" alt="">
+                                <span style="color:blue; font-size:initial; margin-left:13px;">Chinmay Sarasvaty</span>
                               </h5>
-                              <div class="container">
+                              <div class="container" style="margin-left: 30px;">
                                 <div class="row" style="font-size: small;margin-top: -20px;color: gray;">
                                   <div class="col-md-1">
 
@@ -253,11 +248,12 @@
                                 </div>
                               </div>
                             </div>
-                            <div id="collapseOne33" style="background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne33" data-parent="#accordion33">
+                            <div id="collapseOne33" style="background: #f7f7f9 !important;" class="collapse show" aria-labelledby="headingOne33" data-parent="#accordion33">
                               <div class="card-body">
-
+                                <div class="vl3-1"></div>
                                 <!-- 4to Acordio -->
-                                <div id="accordion4">
+                                <div id="accordion4" style="margin-left: 10%;">
+                                  <div class="vl4-1"></div>
                                   <div class="card">
                                     <div class="card-header" id="headingOne4">
                                       <h5 class="mb-0">
@@ -266,7 +262,7 @@
                                       <div class="container" style="margin-top: 20px;font-size: small;">
                                         <div class="row" style="color: gray;">
                                           <div class="col-md-9 pb-3" style="border-bottom: 1px solid;">
-                                            <i class="fas fa-check-circle"></i> Enviar los archivos
+                                            <i style="color:#17e0b5" class="fas fa-check-circle"></i> Enviar los archivos
                                           </div>
                                           <div class="col-md-3" style="border-bottom: 1px solid;">
                                             18/10/2020 Dias: 32
@@ -297,8 +293,6 @@
                                     </div>
                                   </div>
                                 <!-- Fin 4to Acordio -->
-
-
                               </div>
                             </div>
                           </div>
@@ -308,18 +302,18 @@
                   </div>
                 </div>
 
-                    <div id="collapseOne2" style="background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
+                    <div id="collapseOne2" style="margin-left: 15%;background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
                       <div class="card-body">
                         <!-- Tercer Acordion -->
                         <div id="accordion44">
                           <div class="card">
                             <div class="card-header" id="headingOne44">
                               <h5 class="mb-0">
-                                <i class="fas fa-plus-circle" data-toggle="collapse" data-target="#collapseOne44" aria-expanded="true" aria-controls="collapseOne44"></i>
-                                <img src="bootstrap/image/no_avatar.png" style="width:60px;height:60px;border-radius: 60px;" alt="">
-                                <span style="color:blue; font-size:initial;margin-left: 7px;">Lucy Miller</span>
+                                <i class="fas fa-plus-circle" style="color: gray;" id="circle5" data-toggle="collapse" data-target="#collapseOne44" aria-expanded="true" aria-controls="collapseOne44"></i>
+                                <img src="bootstrap/image/no_avatar.png" style=" margin-left: 20px;width:60px;height:60px;border-radius: 60px;" alt="">
+                                <span style="color:blue; font-size:initial; margin-left:13px;">Lucy Miller</span>
                               </h5>
-                              <div class="container">
+                              <div class="container" style="margin-left: 30px;">
                                 <div class="row" style="font-size: small;margin-top: -20px;color: gray;">
                                   <div class="col-md-1">
 
@@ -339,11 +333,12 @@
                                 </div>
                               </div>
                             </div>
-                            <div id="collapseOne44" style="background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne44" data-parent="#accordion44">
+                            <div id="collapseOne44" style="background: #f7f7f9 !important;" class="collapse show" aria-labelledby="headingOne44" data-parent="#accordion44">
                               <div class="card-body">
-
+                                <div class="vl3-2"></div>
                                 <!-- 4to Acordio -->
-                                <div id="accordion4">
+                                <div id="accordion4" style="margin-left: 10%;">
+                                  <div class="vl4-2"></div>
                                   <div class="card">
                                     <div class="card-header" id="headingOne4">
                                       <h5 class="mb-0">
@@ -394,18 +389,18 @@
                   </div>
                 </div>
 
-                    <div id="collapseOne2" style="background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
+                    <div id="collapseOne2" style="margin-left: 15%;background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
                       <div class="card-body">
                         <!-- Tercer Acordion -->
                         <div id="accordion5">
                           <div class="card">
                             <div class="card-header" id="headingOne5">
                               <h5 class="mb-0">
-                                <i class="fas fa-plus-circle" data-toggle="collapse" data-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5"></i>
-                                <img src="bootstrap/image/no_avatar.png" style="width:60px;height:60px;border-radius: 60px;" alt="">
-                                <span style="color:blue; font-size:initial;margin-left: 7px;">Yong Tonghyon</span>
+                                <i class="fas fa-plus-circle" style="color: gray;" id="circle6" data-toggle="collapse" data-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5"></i>
+                                <img src="bootstrap/image/no_avatar.png" style=" margin-left: 20px;width:60px;height:60px;border-radius: 60px;" alt="">
+                                <span style="color:blue; font-size:initial; margin-left:13px;">Yong Tonghyon</span>
                               </h5>
-                              <div class="container">
+                              <div class="container" style="margin-left: 30px;">
                                 <div class="row" style="font-size: small;margin-top: -20px;color: gray;">
                                   <div class="col-md-1">
 
@@ -425,11 +420,12 @@
                                 </div>
                               </div>
                             </div>
-                            <div id="collapseOne5" style="background: #f7f7f9;" class="collapse show" aria-labelledby="headingOne5" data-parent="#accordion5">
+                            <div id="collapseOne5" style="background: #f7f7f9 !important;" class="collapse show" aria-labelledby="headingOne5" data-parent="#accordion5">
                               <div class="card-body">
-
+                                <div class="vl3-3"></div>
                                 <!-- 4to Acordio -->
-                                <div id="accordion4">
+                                <div id="accordion4" style="margin-left:10%;">
+                                  <div class="vl4-3"></div>
                                   <div class="card">
                                     <div class="card-header" id="headingOne4">
                                       <h5 class="mb-0">
@@ -482,23 +478,5 @@
         </div>
     </div>
   </div>
-
-
-  <script type="text/javascript">
-    $('.collapse').collapse()
-   //  $(".barra-progress[aria-valuenow='1']").bind("change", function() {
-   //       alert("nojo");
-   // });
-
-   //  $("input[type=hidden]").bind("change", function() {
-   //       alert("nojo");
-   // });
-    // $('#value-bar').on('change', function () {
-    //   console.log('cambiooo',$("#value-bar").val());
-    //   $(".barra-progress").attr('aria-valuenow',$("#value-bar").val())
-    //   $(".barra-progress").text($("#value-bar").val());
-    //
-    // });
-  </script>
-
+<script src="bootstrap/js/custom.js"></script>
 </body>

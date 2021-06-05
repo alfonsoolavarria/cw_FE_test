@@ -3,3 +3,108 @@
   color: darkgray;
 
 }
+.card-header{
+  background: white;
+}
+body{
+  background: #f7f7f9;
+}
+.vl {
+  border-left: 1px solid gray;
+  height: 443px;
+  position: absolute;
+  margin-left: -152px;
+  margin-top: 0px;
+}
+.vl2 {
+  border-bottom: 1px solid gray;
+  height: 0px;
+  margin-left: -151px;
+  margin-top: 61px;
+  width: 171px;
+  position: absolute;
+}
+.vl22 {
+  border-bottom: 1px solid gray;
+  height: 0px;
+  margin-left: -151px;
+  margin-top: 441px;
+  width: 171px;
+  position: absolute;
+}
+.vl23 {
+  border-bottom: 1px solid gray;
+  height: 0px;
+  margin-left: -151px;
+  margin-top: 313px;
+  width: 171px;
+  position: absolute;
+}
+.vl24 {
+  border-bottom: 1px solid gray;
+  height: 0px;
+  margin-left: -151px;
+  margin-top: 188px;
+  width: 171px;
+  position: absolute;
+}
+.vl3 {
+  border-bottom: 1px solid gray;
+  height: 0px;
+  margin-left: 20px;
+  margin-top: 62px;
+  width: 87px;
+  position: absolute;
+}
+.vl4 {
+  border-left: 1px solid gray;
+  height: 83px;
+  position: absolute;
+  margin-left: -88px;
+  margin-top: -20px;
+}
+.vl3-1 {
+  border-bottom: 1px solid gray;
+  height: 0px;
+  margin-left: 19px;
+  margin-top: 62px;
+  width: 87px;
+  position: absolute;
+}
+.vl4-1 {
+  border-left: 1px solid gray;
+  height: 83px;
+  position: absolute;
+  margin-left: -88px;
+  margin-top: -20px;
+}
+.vl3-2 {
+  border-bottom: 1px solid gray;
+  height: 0px;
+  margin-left: 18px;
+  margin-top: 61px;
+  width: 89px;
+  position: absolute;
+}
+.vl4-2 {
+  border-left: 1px solid gray;
+  height: 83px;
+  position: absolute;
+  margin-left: -88px;
+  margin-top: -20px;
+}
+.vl3-3 {
+  border-bottom: 1px solid gray;
+  height: 0px;
+  margin-left: 19px;
+  margin-top: 62px;
+  width: 88px;
+  position: absolute;
+}
+.vl4-3 {
+  border-left: 1px solid gray;
+  height: 83px;
+  position: absolute;
+  margin-left: -88px;
+  margin-top: -20px;
+}
